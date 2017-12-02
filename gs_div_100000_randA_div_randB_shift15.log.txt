@@ -1,0 +1,197 @@
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 431075000 ps
+CPU Time:      5.600 seconds;       Data structure size:   0.7Mb
+Fri Dec  1 16:27:41 2017
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'CentOS release 6.9 (Final)' is not supported on 'x86_64' 
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+                         Chronologic VCS (TM)
+       Version K-2015.09-SP1_Full64 -- Fri Dec  1 16:27:42 2017
+               Copyright (c) 1991-2015 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'time'
+Parsing design file 'gs_div.v'
+Parsing included file 'first_guess.v'.
+Back to file 'gs_div.v'.
+Parsing included file 'MULT.v'.
+Back to file 'gs_div.v'.
+Top Level Modules:
+       timeunit
+       top
+TimeScale is 1 ns / 10 ps
+Starting vcs inline pass...
+5 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module top because:
+	This module or some inlined child module(s) has/have been modified.
+make: Warning: File `filelist.cu' has modification time 4.6 s in the future
+rm -f _csrc*.so linux64_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic   amcQwB.o objs/amcQw_d.o   _76582_archive_1.so _prev_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libzerosoft_rt_stubs.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libvirsim.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/liberrorinf.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libsnpsmalloc.so    /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libvcsnew.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libsimprofile.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libuclinative.so   -Wl,-whole-archive /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libvcsucli.so -Wl,-no-whole-archive          /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/vcs_save_restore_new.o -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: .777 seconds to compile + .018 seconds to elab + .158 seconds to link
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09-SP1_Full64; Runtime version K-2015.09-SP1_Full64;  Dec  1 16:27 2017
+VCD+ Writer K-2015.09-SP1_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/home/ecelrc/students/atung/vlsi1/vlsi1_project/inter.vpd' was opened successfully.
+failed: A = 000d530000000000, B = 0000000800000000, C = 0001aa5ffffe55a0
+
+failed: A = 004f6e0000000000, B = 0000001000000000, C = 0004f6dffffb0920
+
+failed: A = 007b580000000000, B = 0000004000000000, C = 0001ed5ffffe12a0
+
+failed: A = 0004890000000000, B = 0000000800000000, C = 0000911fffff6ee0
+
+failed: A = 00094f0000000000, B = 0000000100000000, C = 00094efffff6b100
+
+failed: A = 0016c40000000000, B = 0000002000000000, C = 0000b61fffff49e0
+
+failed: A = 0047a90000000000, B = 0000002000000000, C = 00023d47fffdc2b8
+
+failed: A = 00014e0000000000, B = 0000000100000000, C = 00014dfffffeb200
+
+failed: A = 0006950000000000, B = 0000000400000000, C = 0001a53ffffe5ac0
+
+failed: A = 0107510200000000, B = 0000000100000000, C = 01075101fef8aefe
+
+failed: A = 0002d30000000000, B = 0000000100000000, C = 0002d2fffffd2d00
+
+failed: A = 002b150000000000, B = 0000002000000000, C = 000158a7fffea758
+
+failed: A = 002b650000000000, B = 0000000800000000, C = 00056c9ffffa9360
+
+failed: A = 0115f30200000000, B = 0000000100000000, C = 0115f301feea0cfe
+
+failed: A = 0041b90000000000, B = 0000004000000000, C = 000106e3fffef91c
+
+failed: A = 000e410000000000, B = 0000000400000000, C = 0003903ffffc6fc0
+
+failed: A = 0b35a91600000000, B = 0000000200000000, C = 059ad48afa652b75
+
+failed: A = 003cdf0000000000, B = 0000000800000000, C = 00079bdffff86420
+
+failed: A = 0002460000000000, B = 0000000200000000, C = 000122fffffedd00
+
+failed: A = 00402d0000000000, B = 0000004000000000, C = 000100b3fffeff4c
+
+failed: A = 003d2c0000000000, B = 0000004000000000, C = 0000f4afffff0b50
+
+failed: A = 0059220000000000, B = 0000000300000000, C = 001db5ffffffffff
+
+failed: A = 58aa4bb100000000, B = 0000000300000000, C = 1d8e193affffffff
+
+failed: A = 0011be0000000000, B = 0000000800000000, C = 000237bffffdc840
+
+failed: A = 00090c0000000000, B = 0000000800000000, C = 0001217ffffede80
+
+failed: A = 0276b00400000000, B = 0000000200000000, C = 013b5801fec4a7fe
+
+failed: A = 00018c0000000000, B = 0000000100000000, C = 00018bfffffe7400
+
+failed: A = 0003520000000000, B = 0000000200000000, C = 0001a8fffffe5700
+
+failed: A = 0009120000000000, B = 0000000200000000, C = 000488fffffb7700
+
+failed: A = 0029940000000000, B = 0000000200000000, C = 0014c9ffffeb3600
+
+failed: A = 002ca00000000000, B = 0000004000000000, C = 0000b27fffff4d80
+
+failed: A = 0012450000000000, B = 0000000300000000, C = 000616ffffffffff
+
+failed: A = 0060e60000000000, B = 0000000400000000, C = 0018397fffe7c680
+
+failed: A = 0b03781600000000, B = 0000000300000000, C = 03abd2b1ffffffff
+
+failed: A = 003eb20000000000, B = 0000000600000000, C = 000a72ffffffffff
+
+failed: A = 1da5f53b00000000, B = 0000000300000000, C = 09e1fc68ffffffff
+
+failed: A = 000ae90000000000, B = 0000000600000000, C = 0001d17fffffffff
+
+failed: A = 0036e70000000000, B = 0000000200000000, C = 001b737fffe48c80
+
+failed: A = 00e53f0100000000, B = 0000000100000000, C = 00e53f00ff1ac0ff
+
+failed: A = 002eae0000000000, B = 0000001000000000, C = 0002eadffffd1520
+
+failed: A = 20633f4000000000, B = 000000c000000000, C = 002b2efeffffffff
+
+failed: A = 0247050400000000, B = 0000000100000000, C = 02470503fdb8fafc
+
+failed: A = 0024500000000000, B = 0000000200000000, C = 001227ffffedd800
+
+failed: A = 001afe0000000000, B = 0000000200000000, C = 000d7efffff28100
+
+failed: A = 246cb94800000000, B = 0000000400000000, C = 091b2e51f6e4d1ae
+
+failed: A = 000cd10000000000, B = 0000000800000000, C = 00019a1ffffe65e0
+
+failed: A = 0328e60600000000, B = 0000000300000000, C = 010da201ffffffff
+
+failed: A = 00338b0000000000, B = 0000000100000000, C = 00338affffcc7500
+
+failed: A = 002e860000000000, B = 0000001800000000, C = 0001f03fffffffff
+
+failed: A = 00287d0000000000, B = 0000000300000000, C = 000d7effffffffff
+
+failed: A = 006b670000000000, B = 0000002000000000, C = 00035b37fffca4c8
+
+failed: A = 0066590000000000, B = 0000001000000000, C = 0006658ffff99a70
+
+failed: A = 14022e2800000000, B = 0000000800000000, C = 028045c4fd7fba3b
+
+failed: A = 00022b0000000000, B = 0000000300000000, C = 0000b8ffffffffff
+
+failed: A = 001a880000000000, B = 0000000800000000, C = 000350fffffcaf00
+
+failed: A = 00028d0000000000, B = 0000000200000000, C = 0001467ffffeb980
+
+failed: A = 0027430000000000, B = 0000000800000000, C = 0004e85ffffb17a0
+
+failed: A = 001c180000000000, B = 0000000400000000, C = 000705fffff8fa00
+
+failed: A = 0021b40000000000, B = 0000000800000000, C = 0004367ffffbc980
+
+failed: A = 1fb3ae3f00000000, B = 0000000100000000, C = 1fb3ae3ee04c51c1
+
+failed: A = 0056160000000000, B = 0000000300000000, C = 001cb1ffffffffff
+
+failed: A = 40258c8000000000, B = 0000204000000000, C = 0001fd31ffffdf3f
+
+failed: A = 000b450000000000, B = 0000000800000000, C = 0001689ffffe9760
+
+failed: A = 001b570000000000, B = 0000000400000000, C = 0006d5bffff92a40
+
+failed: A = 0021c30000000000, B = 0000004000000000, C = 0000870bffff78f4
+
+failed: A = 00083d0000000000, B = 0000000800000000, C = 0001079ffffef860
+
+failed: A = 00666c0000000000, B = 0000000100000000, C = 00666bffff999400
+
+failed: A = 00296a0000000000, B = 0000000800000000, C = 00052d3ffffad2c0
+
+failed: A = 001a760000000000, B = 0000002000000000, C = 0000d3afffff2c50
+
+failed: A = 0004ab0000000000, B = 0000000200000000, C = 0002557ffffdaa80
+
+failed: A = 0a3d3e1400000000, B = 0000000c00000000, C = 00da6fd6ffffffff
+
+failed: A = 001dd20000000000, B = 0000001000000000, C = 0001dd1ffffe22e0
+
+failed: A = 024bce0400000000, B = 0000000200000000, C = 0125e701feda18fe
+
+$finish called from file "gs_div.v", line 41.
+$finish at simulation time 11999880.0 ns
+Simulation complete, time is 11999880000 ps.
