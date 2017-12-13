@@ -1,0 +1,8 @@
+setAnalysisMode -clkSrcPath true -clockPropagation sdcControl
+setExtractRCMode  -engine preRoute
+setDelayCalMode -engine default
+setNanoRouteMode -quiet -routeWithSiDriven false
+setNanoRouteMode -quiet -routeWithTimingDriven false
+
+setPlaceMode -fp false -ignoreScan true -relaxSoftBlockageMode 0 -timingDriven false
+setIlmMode -highFanoutPort true -loopBack false 

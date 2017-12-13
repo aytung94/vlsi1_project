@@ -1,0 +1,184 @@
+14:12:39    387 --> ...                                                  [tcl] ucliGUI::start /home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/simv -ucligui 
+14:12:39    388 --> ...                                                      [tcl] set ucliGUI::state
+14:12:39    389 --> ...                                                          [tcl] gui_update_simulator_buttons
+14:12:40    390 --> ...                                                              [tcl] set ucliGUI::state
+14:12:40    391 --> ...                                                                  [tcl] ucliCore::getToolPID
+14:12:40    392 --> ...                                                                      [tcl] synopsys::env hasTB
+14:12:40    393 --> ...                                                                          [tcl] trigger_hier_stack_context_switch 0
+14:12:40    394 --> ...                                                                              [tcl] synUtils::setDVEInitPhase 1
+14:12:40    395 --> ...                                                                                  [tcl] gui_get_env SIMSETUP::SIMVPD
+14:12:40    396 --> ...                                                                                      [tcl] synopsys::dump -type VPD -file /home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/inter.vpd -locking
+14:12:40    397 --> ...                                                                                          [tcl] synopsys::dump -autoflush on -fid VPD2
+14:12:40    398 --> ...                                                                                              [tcl] set ::dve_fid VPD2
+14:12:40    399 --> ...                                                                                                  [tcl] synUtils::setDVEInitPhase 0
+14:12:40    400 --> ...  [tcl] ucliCore::getToolPID
+14:12:40    401 --> ...      [tcl] synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpOcx4qF
+14:12:40    402 --> ...          [tcl] synUtils::sendTool -active {_icl_start_rpc -version "K-2015.09-SP1_Full64" -sync_file /tmp/vcs_dve_rpc.atung.13480}
+14:12:40    403 --> ...              [tcl] synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.atung.13480}
+14:12:40    404 --> ...                  [tcl] config endofsim noexit
+14:12:40    405 --> ...                      [tcl] config onfail enable all
+14:12:40    406 --> ...                          [tcl] config syscaddplainmembers
+14:12:40    407 --> ...                              [tcl] config syscaddsourcenames
+14:12:40    408 --> ...                                  [tcl] config syscaddstructtypes
+14:12:40    409 --> ...                                      [tcl] synopsys::listing -disable
+14:12:40    410 --> ...                                          [tcl] # Begin_DVE_Session_Save_Info
+14:12:40    411 --> ...                                              [tcl] # DVE restart session
+14:12:40    412 --> ...                                                  [tcl] # Saved on Wed Dec 13 14:12:36 2017
+14:12:40    413 --> ...                                                      [tcl] # Designs open: 1
+14:12:40    414 --> ...                                                          [tcl] #   Sim: /home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/simv
+14:12:40    415 --> ...                                                              [tcl] # Toplevel windows open: 1
+14:12:40    416 --> ...                                                                  [tcl] # 	TopLevel.1
+14:12:40    417 --> ...                                                                      [tcl] #   Source.1: timeunit
+14:12:40    418 --> ...                                                                          [tcl] #   Group count = 0
+14:12:40    419 --> ...                                                                              [tcl] # End_DVE_Session_Save_Info
+14:12:40    420 --> ...                                                                                  [tcl] # DVE version: K-2015.09-SP1_Full64
+14:12:40    421 --> ...                                                                                      [tcl] # DVE build date: Nov 24 2015 21:15:24
+14:12:40    422 --> ...                                                                                          [tcl] #<Session mode="Restart" path=".restartSimSession.tcl" type="Debug">
+14:12:40    423 --> ...                                                                                              [tcl] gui_set_loading_session_type Restart
+14:12:40    424 --> ...                                                                                                  [tcl] gui_continuetime_set
+14:12:40    425 --> ...  [tcl] gui_clear_window -type Wave
+14:12:40    426 --> ...      [tcl] gui_clear_window -type List
+14:12:40    427 --> ...          [tcl] # Application preferences
+14:12:40    428 --> ...              [tcl] gui_set_pref_value -key app_default_font -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+14:12:40    429 --> ...                  [tcl] gui_src_preferences -tabstop 8 -maxbits 24 -windownumber 1
+14:12:40    430 --> ...                      [tcl] #<WindowLayout>
+14:12:40    431 --> ...                          [tcl] # DVE top-level session
+14:12:40    432 --> ...                              [tcl] # Create and position top-level window: TopLevel.1
+14:12:40    433 --> ...                                  [tcl] set TopLevel.1 TopLevel.1
+14:12:40    434 --> ...                                      [tcl] # Docked window settings
+14:12:40    435 --> ...                                          [tcl] set HSPane.1 HSPane.1
+14:12:40    436 --> ...                                              [tcl] set Hier.1 Hier.1
+14:12:40    437 --> ...                                                  [tcl] set DLPane.1 DLPane.1
+14:12:40    438 --> ...                                                      [tcl] set Data.1 Data.1
+14:12:40    439 --> ...                                                          [tcl] set Console.1 Console.1
+14:12:40    440 --> ...                                                              [tcl] gui_sync_global -id ${TopLevel.1} -option true
+14:12:40    441 --> ...                                                                  [tcl] # MDI window settings
+14:12:40    442 --> ...                                                                      [tcl] set Source.1 Source.1
+14:12:40    443 --> ...                                                                          [tcl] gui_update_layout -id ${Source.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false}}
+14:12:40    444 --> ...                                                                              [tcl] # End MDI window settings
+14:12:40    445 --> ...                                                                                  [tcl] #</WindowLayout>
+14:12:40    446 --> ...                                                                                      [tcl] #<Database>
+14:12:40    447 --> ...                                                                                          [tcl] gui_set_precision 10ps
+14:12:40    448 --> ...                                                                                              [tcl] gui_set_time_units 10ps
+14:12:40    449 --> ...                                                                                                  [tcl] #</Database>
+14:12:40    450 --> ...  [tcl] # DVE Global setting session:
+14:12:40    451 --> ...      [tcl] # Global: Breakpoints
+14:12:40    452 --> ...          [tcl] # Global: Bus
+14:12:40    453 --> ...              [tcl] # Global: Expressions
+14:12:40    454 --> ...                  [tcl] # Global: Signal Time Shift
+14:12:40    455 --> ...                      [tcl] # Global: Signal Compare
+14:12:40    456 --> ...                          [tcl] # Global: Signal Groups
+14:12:40    457 --> ...                              [tcl] # Global: Highlighting
+14:12:40    458 --> ...                                  [tcl] # Global: Stack
+14:12:40    459 --> ...                                      [tcl] gui_change_stack_mode -mode list
+14:12:40    460 --> ...                                          [tcl] # Post database loading setting...
+14:12:40    461 --> ...                                              [tcl] # Save global setting...
+14:12:40    462 --> ...                                                  [tcl] # Wave/List view global setting
+14:12:40    463 --> ...                                                      [tcl] gui_cov_show_value -switch false
+14:12:40    464 --> ...                                                          [tcl] # Close all empty TopLevel windows
+14:12:40    465 --> ...                                                              [tcl] foreach __top [gui_ekki_get_window_ids -type TopLevel] {     if { [llength [gui_ekki_get_window_ids -parent $__top]] == 0} {         gui_close_window -window $__top     } }
+14:12:40    466 --> ...                                                                  [tcl] gui_set_loading_session_type noSession
+14:12:40    467 --> ...                                                                      [tcl] # DVE View/pane content session:
+14:12:40    468 --> ...                                                                          [tcl] # Hier 'Hier.1'
+14:12:40    469 --> ...                                                                              [tcl] gui_show_window -window ${Hier.1}
+14:12:40    470 --> ...                                                                                  [tcl] gui_list_set_filter -id ${Hier.1} -list { {Package 1} {All 0} {Process 1} {VirtPowSwitch 0} {UnnamedProcess 1} {UDP 0} {Function 1} {Block 1} {SrsnAndSpaCell 0} {OVA Unit 1} {LeafScCell 1} {LeafVlgCell 1} {Interface 1} {LeafVhdCell 1} {$unit 1} {NamedBlock 1} {Task 1} {VlgPackage 1} {ClassDef 1} {VirtIsoCell 0} }
+14:12:40    471 --> ...                                                                                      [tcl] gui_list_set_filter -id ${Hier.1} -text {*}
+14:12:40    472 --> ...                                                                                          [tcl] gui_change_design -id ${Hier.1} -design Sim
+14:12:40    473 --> ...                                                                                              [tcl] catch {gui_list_select -id ${Hier.1} {timeunit}}
+14:12:40    474 --> ...                                                                                                  [tcl] dveMisc::vbusExpand timeunit
+14:12:40    475 --> ...  [tcl] gui_view_scroll -id ${Hier.1} -vertical -set 0
+14:12:40    476 --> ...      [tcl] gui_view_scroll -id ${Hier.1} -horizontal -set 0
+14:12:40    477 --> ...          [tcl] # Data 'Data.1'
+14:12:40    478 --> ...              [tcl] gui_list_set_filter -id ${Data.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {LowPower 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
+14:12:40    479 --> ...                  [tcl] gui_list_set_filter -id ${Data.1} -text {*}
+14:12:40    480 --> ...                      [tcl] gui_list_show_data -id ${Data.1} {timeunit}
+14:12:40    481 --> ...                          [tcl] gui_view_scroll -id ${Data.1} -vertical -set 0
+14:12:40    482 --> ...                              [tcl] gui_view_scroll -id ${Data.1} -horizontal -set 0
+14:12:40    483 --> ...                                  [tcl] gui_view_scroll -id ${Hier.1} -vertical -set 0
+14:12:40    484 --> ...                                      [tcl] gui_view_scroll -id ${Hier.1} -horizontal -set 0
+14:12:40    485 --> ...                                          [tcl] # Source 'Source.1'
+14:12:40    486 --> ...                                              [tcl] gui_src_value_annotate -id ${Source.1} -switch false
+14:12:40    487 --> ...                                                  [tcl] gui_set_env TOGGLE::VALUEANNOTATE 0
+14:12:40    488 --> ...                                                      [tcl] gui_open_source -id ${Source.1}  -replace -active timeunit /home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/time
+14:12:40    489 --> ...                                                          [tcl] gui_view_scroll -id ${Source.1} -vertical -set 0
+14:12:40    490 --> ...                                                              [tcl] gui_src_set_reusable -id ${Source.1}
+14:12:40    491 --> ...                                                                  [tcl] # Restore toplevel window zorder
+14:12:40    492 --> ...                                                                      [tcl] # The toplevel window could be closed if it has no view/pane
+14:12:40    493 --> ...                                                                          [tcl] if {[gui_exist_window -window ${TopLevel.1}]} { 	gui_set_active_window -window ${TopLevel.1} 	gui_set_active_window -window ${Source.1} 	gui_set_active_window -window ${Console.1} }
+14:12:40    494 --> ...                                                                              [tcl] #</Session>
+14:12:41    495 --> ...                                                                                  [tcl] synopsys::run
+14:12:41    496 --> ...                                                                                      [tcl] set ucliGUI::state
+14:12:41    497 --> ...                                                                                          [tcl] set ucliGUI::state
+14:12:41    498 --> ...                                                                                              [tcl] gui_update_simulator_buttons
+14:12:44    499 --> ...                                                                                                  [tcl] set synopsys::env(time) 20920500
+14:12:47    500 --> ...  [tcl] set synopsys::env(time) 41862500
+14:12:50    501 --> ...      [tcl] set synopsys::env(time) 62023500
+14:12:53    502 --> ...          [tcl] set synopsys::env(time) 83069500
+14:12:56    503 --> ...              [tcl] set synopsys::env(time) 104227500
+14:12:59    504 --> ...                  [tcl] set synopsys::env(time) 125332500
+14:13:02    505 --> ...                      [tcl] set synopsys::env(time) 145516500
+14:13:05    506 --> ...                          [tcl] set synopsys::env(time) 166088500
+14:13:08    507 --> ...                              [tcl] set synopsys::env(time) 186942500
+14:13:11    508 --> ...                                  [tcl] set synopsys::env(time) 207595500
+14:13:14    509 --> ...                                      [tcl] set synopsys::env(time) 227690500
+14:13:17    510 --> ...                                          [tcl] set synopsys::env(time) 248500500
+14:13:20    511 --> ...                                              [tcl] set synopsys::env(time) 269325500
+14:13:23    512 --> ...                                                  [tcl] set synopsys::env(time) 289950500
+14:13:26    513 --> ...                                                      [tcl] set synopsys::env(time) 310003500
+14:13:29    514 --> ...                                                          [tcl] set synopsys::env(time) 330868500
+14:13:32    515 --> ...                                                              [tcl] set synopsys::env(time) 351773500
+14:13:35    516 --> ...                                                                  [tcl] set synopsys::env(time) 371935500
+14:13:38    517 --> ...                                                                      [tcl] set synopsys::env(time) 393098500
+14:13:41    518 --> ...                                                                          [tcl] set synopsys::env(time) 414163500
+14:13:44    519 --> ...                                                                              [tcl] set synopsys::env(time) 435243500
+14:13:47    520 --> ...                                                                                  [tcl] set synopsys::env(time) 455450500
+14:13:50    521 --> ...                                                                                      [tcl] set synopsys::env(time) 476455500
+14:13:53    522 --> ...                                                                                          [tcl] set synopsys::env(time) 497547500
+14:13:56    523 --> ...                                                                                              [tcl] set synopsys::env(time) 518596500
+14:13:59    524 --> ...                                                                                                  [tcl] set synopsys::env(time) 539024500
+14:14:02    525 --> ...  [tcl] set synopsys::env(time) 560225500
+14:14:05    526 --> ...      [tcl] set synopsys::env(time) 581322500
+14:14:08    527 --> ...          [tcl] set synopsys::env(time) 602404500
+14:14:11    528 --> ...              [tcl] set synopsys::env(time) 622647500
+14:14:14    529 --> ...                  [tcl] set synopsys::env(time) 643493500
+14:14:17    530 --> ...                      [tcl] set synopsys::env(time) 664746500
+14:14:20    531 --> ...                          [tcl] set synopsys::env(time) 684930500
+14:14:23    532 --> ...                              [tcl] set synopsys::env(time) 705978500
+14:14:26    533 --> ...                                  [tcl] set synopsys::env(time) 726844500
+14:14:29    534 --> ...                                      [tcl] set synopsys::env(time) 747870500
+14:14:32    535 --> ...                                          [tcl] set synopsys::env(time) 769027500
+14:14:35    536 --> ...                                              [tcl] set synopsys::env(time) 789219500
+14:14:38    537 --> ...                                                  [tcl] set synopsys::env(time) 810125500
+14:14:41    538 --> ...                                                      [tcl] set synopsys::env(time) 830898500
+14:14:44    539 --> ...                                                          [tcl] set synopsys::env(time) 851128500
+14:14:47    540 --> ...                                                              [tcl] set synopsys::env(time) 872000500
+14:14:50    541 --> ...                                                                  [tcl] set synopsys::env(time) 892912500
+14:14:53    542 --> ...                                                                      [tcl] set synopsys::env(time) 913795500
+14:14:56    543 --> ...                                                                          [tcl] set synopsys::env(time) 934142000
+14:14:59    544 --> ...                                                                              [tcl] set synopsys::env(time) 954823500
+14:15:02    545 --> ...                                                                                  [tcl] set synopsys::env(time) 975761500
+14:15:05    546 --> ...                                                                                      [tcl] set synopsys::env(time) 995624500
+14:15:08    547 --> ...                                                                                          [tcl] set synopsys::env(time) 1016440500
+14:15:11    548 --> ...                                                                                              [tcl] set synopsys::env(time) 1037096500
+14:15:14    549 --> ...                                                                                                  [tcl] set synopsys::env(time) 1058046500
+14:15:17    550 --> ...  [tcl] set synopsys::env(time) 1077966500
+14:15:20    551 --> ...      [tcl] set synopsys::env(time) 1098892500
+14:15:23    552 --> ...          [tcl] set synopsys::env(time) 1119773500
+14:15:26    553 --> ...              [tcl] set synopsys::env(time) 1140569500
+14:15:29    554 --> ...                  [tcl] set synopsys::env(time) 1160668500
+14:15:32    555 --> ...                      [tcl] set synopsys::env(time) 1181587500
+14:15:35    556 --> ...                          [tcl] set ucliGUI::state
+14:15:35    557 --> ...                              [tcl] set ucliGUI::state
+14:15:35    558 --> ...                                  [tcl] catch {senv activeDomain} dveMisc::result 
+14:15:35    559 --> ...                                      [tcl] set dveMisc::result
+14:15:35    560 --> ...                                          [tcl] gui_update_simulator_buttons
+14:19:25    561 --> ...                                              [tcl] if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+14:19:25    562 --> ...                                                  [tcl] synopsys::finish
+14:19:25    563 --> ...                                                      [tcl] set ucliGUI::state
+14:19:25    564 --> ...                                                          [tcl] set ucliGUI::state
+14:19:25    565 --> ...                                                              [tcl] catch {senv activeDomain} dveMisc::result 
+14:19:25    566 --> ...                                                                  [tcl] set dveMisc::result
+14:19:25    567 --> ...                                                                      [tcl] gui_update_simulator_buttons
+14:19:25    568 --> ...                                                                          [tcl] catch {senv activeDomain} dveMisc::result 
+14:19:25    569 --> ...                                                                              [tcl] set dveMisc::result
+14:19:25    570 --> ...                                                                                  [tcl] ucli_exit

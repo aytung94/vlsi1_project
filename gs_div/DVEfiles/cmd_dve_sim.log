@@ -1,0 +1,141 @@
+ucliGUI::start /home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/simv -ucligui 
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD2
+set ::dve_fid VPD2
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpOcx4qF
+synUtils::sendTool -active {_icl_start_rpc -version "K-2015.09-SP1_Full64" -sync_file /tmp/vcs_dve_rpc.atung.13480}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.atung.13480}
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+# Begin_DVE_Session_Save_Info
+# DVE restart session
+# Saved on Wed Dec 13 14:12:36 2017
+# Designs open: 1
+#   Sim: /home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/simv
+# Toplevel windows open: 1
+# 	TopLevel.1
+#   Source.1: timeunit
+#   Group count = 0
+# End_DVE_Session_Save_Info
+# DVE version: K-2015.09-SP1_Full64
+# DVE build date: Nov 24 2015 21:15:24
+#<Session mode="Restart" path=".restartSimSession.tcl" type="Debug">
+# Application preferences
+#<WindowLayout>
+# DVE top-level session
+# Create and position top-level window: TopLevel.1
+set TopLevel.1 TopLevel.1
+# Docked window settings
+set HSPane.1 HSPane.1
+set Hier.1 Hier.1
+set DLPane.1 DLPane.1
+set Data.1 Data.1
+set Console.1 Console.1
+# MDI window settings
+set Source.1 Source.1
+# End MDI window settings
+#</WindowLayout>
+#<Database>
+#</Database>
+# DVE Global setting session:
+# Global: Breakpoints
+# Global: Bus
+# Global: Expressions
+# Global: Signal Time Shift
+# Global: Signal Compare
+# Global: Signal Groups
+# Global: Highlighting
+# Global: Stack
+# Post database loading setting...
+# Save global setting...
+# Wave/List view global setting
+# Close all empty TopLevel windows
+foreach __top [gui_ekki_get_window_ids -type TopLevel] {     if { [llength [gui_ekki_get_window_ids -parent $__top]] == 0} {         gui_close_window -window $__top     } }
+# DVE View/pane content session:
+# Hier 'Hier.1'
+catch {gui_list_select -id ${Hier.1} {timeunit}}
+# Data 'Data.1'
+# Source 'Source.1'
+# Restore toplevel window zorder
+# The toplevel window could be closed if it has no view/pane
+if {[gui_exist_window -window ${TopLevel.1}]} { 	gui_set_active_window -window ${TopLevel.1} 	gui_set_active_window -window ${Source.1} 	gui_set_active_window -window ${Console.1} }
+#</Session>
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+set synopsys::env(time) 20920500
+set synopsys::env(time) 41862500
+set synopsys::env(time) 62023500
+set synopsys::env(time) 83069500
+set synopsys::env(time) 104227500
+set synopsys::env(time) 125332500
+set synopsys::env(time) 145516500
+set synopsys::env(time) 166088500
+set synopsys::env(time) 186942500
+set synopsys::env(time) 207595500
+set synopsys::env(time) 227690500
+set synopsys::env(time) 248500500
+set synopsys::env(time) 269325500
+set synopsys::env(time) 289950500
+set synopsys::env(time) 310003500
+set synopsys::env(time) 330868500
+set synopsys::env(time) 351773500
+set synopsys::env(time) 371935500
+set synopsys::env(time) 393098500
+set synopsys::env(time) 414163500
+set synopsys::env(time) 435243500
+set synopsys::env(time) 455450500
+set synopsys::env(time) 476455500
+set synopsys::env(time) 497547500
+set synopsys::env(time) 518596500
+set synopsys::env(time) 539024500
+set synopsys::env(time) 560225500
+set synopsys::env(time) 581322500
+set synopsys::env(time) 602404500
+set synopsys::env(time) 622647500
+set synopsys::env(time) 643493500
+set synopsys::env(time) 664746500
+set synopsys::env(time) 684930500
+set synopsys::env(time) 705978500
+set synopsys::env(time) 726844500
+set synopsys::env(time) 747870500
+set synopsys::env(time) 769027500
+set synopsys::env(time) 789219500
+set synopsys::env(time) 810125500
+set synopsys::env(time) 830898500
+set synopsys::env(time) 851128500
+set synopsys::env(time) 872000500
+set synopsys::env(time) 892912500
+set synopsys::env(time) 913795500
+set synopsys::env(time) 934142000
+set synopsys::env(time) 954823500
+set synopsys::env(time) 975761500
+set synopsys::env(time) 995624500
+set synopsys::env(time) 1016440500
+set synopsys::env(time) 1037096500
+set synopsys::env(time) 1058046500
+set synopsys::env(time) 1077966500
+set synopsys::env(time) 1098892500
+set synopsys::env(time) 1119773500
+set synopsys::env(time) 1140569500
+set synopsys::env(time) 1160668500
+set synopsys::env(time) 1181587500
+set ucliGUI::state
+set ucliGUI::state
+if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+synopsys::finish
+set ucliGUI::state
+set ucliGUI::state
+ucli_exit

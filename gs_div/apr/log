@@ -1,0 +1,58 @@
+Loading verilog file '/home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/apr/TOP'
+Warning: Design 'FirstGuess' (file '/home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/apr/TOP') is already registered. Remove the design before rereading. (DBR-003)
+Error: Cannot find design 'TOP'. (DES-004)
+Error: Cannot find design 'TOP'. (DES-004)
+Warning: Creating virtual clock named 'vclk' with no sources. (UITE-121)
+Information: Abandoning fast timing updates. (PTE-018)
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : FirstGuess
+Version: K-2015.12
+Date   : Wed Dec 13 15:12:39 2017
+****************************************
+
+
+  Startpoint: D[30] (input port clocked by vclk)
+  Endpoint: F[29] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  ---------------------------------------------------------------
+  input external delay                     1.00       1.00 r
+  D[30] (in)                               0.00       1.00 r
+  U87/Y (NOR3X1)                           0.03       1.03 f
+  U32/Y (INVX1)                            0.02       1.05 r
+  U86/Y (NOR3X1)                           0.03       1.08 f
+  U85/Y (NAND3X1)                          0.04       1.12 r
+  U27/Y (BUFX2)                            0.04       1.16 r
+  U84/Y (NOR3X1)                           0.03       1.19 f
+  U83/Y (NAND3X1)                          0.04       1.23 r
+  U28/Y (BUFX2)                            0.04       1.27 r
+  U81/Y (NOR3X1)                           0.03       1.30 f
+  U33/Y (INVX1)                            0.02       1.32 r
+  U79/Y (NOR3X1)                           0.02       1.34 f
+  U23/Y (AND2X1)                           0.04       1.38 f
+  U75/Y (NAND3X1)                          0.04       1.42 r
+  U29/Y (BUFX2)                            0.05       1.47 r
+  U71/Y (NOR3X1)                           0.04       1.51 f
+  U25/Y (AND2X1)                           0.04       1.56 f
+  U65/Y (NAND3X1)                          0.04       1.60 r
+  U12/Y (BUFX2)                            0.04       1.64 r
+  U11/Y (INVX1)                            0.02       1.66 f
+  U60/Y (NAND3X1)                          0.04       1.70 r
+  U10/Y (BUFX2)                            0.04       1.74 r
+  U9/Y (INVX1)                             0.02       1.76 f
+  U39/Y (AND2X1)                           0.04       1.80 f
+  F[29] (out)                              0.00       1.80 f
+  data arrival time                                   1.80
+  ---------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
+1

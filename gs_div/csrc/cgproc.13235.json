@@ -1,0 +1,43 @@
+{
+    "Modules": {
+        "FA": {},
+        "...MASTER...": {},
+        "HA": {},
+        "timeunit": {},
+        "top": {
+            "Compiled": "Yes",
+            "Compiled Times": 9
+        },
+        "MULT": {}
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "checksum": 4294967295,
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 7231,
+            "mode": 4
+        },
+        "Emx8S_d": {
+            "checksum": 4294967295,
+            "mod": "top",
+            "out": "Emx8S_d.o",
+            "bytes": 36675,
+            "mode": 4,
+            "archive": "archive.38/_13235_archive_1.a"
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.38/_13235_archive_1.a",
+            "objects": [
+                [
+                    "Emx8S_d.o",
+                    36675
+                ]
+            ],
+            "size": 36675
+        }
+    ]
+}

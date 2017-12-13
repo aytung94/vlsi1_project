@@ -1,0 +1,123 @@
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09-SP1_Full64; Runtime version K-2015.09-SP1_Full64;  Dec 13 13:46 2017
+VCD+ Writer K-2015.09-SP1_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/inter.vpd' was opened successfully.
+Starting       99999 tests
+      99999 tests,                      0 errors,                    100 percent correct
+
+$finish called from file "tb.v", line 54.
+$finish at simulation time 11999880.0 ns
+Simulation complete, time is 11999880000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 11999880000 ps
+CPU Time:    173.940 seconds;       Data structure size:   1.0Mb
+Wed Dec 13 14:03:10 2017
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'CentOS release 6.9 (Final)' is not supported on 'x86_64' 
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+                         Chronologic VCS (TM)
+       Version K-2015.09-SP1_Full64 -- Wed Dec 13 14:03:11 2017
+               Copyright (c) 1991-2015 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'time'
+Parsing design file 'tb.v'
+Parsing included file 'first_guess.v'.
+Back to file 'tb.v'.
+Parsing included file 'MULT.v'.
+Back to file 'tb.v'.
+Top Level Modules:
+       timeunit
+       top
+TimeScale is 1 ns / 10 ps
+Starting vcs inline pass...
+5 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module top because:
+	This module or some inlined child module(s) has/have been modified.
+make: Warning: File `filelist.cu' has modification time 61 s in the future
+rm -f _csrc*.so linux64_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic   amcQwB.o objs/amcQw_d.o   _74424_archive_1.so _prev_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libzerosoft_rt_stubs.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libvirsim.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/liberrorinf.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libsnpsmalloc.so    /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libvcsnew.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libsimprofile.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libuclinative.so   -Wl,-whole-archive /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libvcsucli.so -Wl,-no-whole-archive          /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/vcs_save_restore_new.o -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: 1.010 seconds to compile + .021 seconds to elab + .173 seconds to link
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09-SP1_Full64; Runtime version K-2015.09-SP1_Full64;  Dec 13 14:03 2017
+VCD+ Writer K-2015.09-SP1_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/inter.vpd' was opened successfully.
+Starting       99999 tests
+      99999 tests,                      0 errors,                    100 percent correct
+
+$finish called from file "tb.v", line 54.
+$finish at simulation time 11999880.0 ns
+Simulation complete, time is 11999880000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 11999880000 ps
+CPU Time:    174.520 seconds;       Data structure size:   1.0Mb
+Wed Dec 13 14:12:36 2017
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'CentOS release 6.9 (Final)' is not supported on 'x86_64' 
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+                         Chronologic VCS (TM)
+       Version K-2015.09-SP1_Full64 -- Wed Dec 13 14:12:37 2017
+               Copyright (c) 1991-2015 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'time'
+Parsing design file 'tb.v'
+Parsing included file 'first_guess.v'.
+Back to file 'tb.v'.
+Parsing included file 'MULT.v'.
+Back to file 'tb.v'.
+Top Level Modules:
+       timeunit
+       top
+TimeScale is 1 ns / 10 ps
+Starting vcs inline pass...
+5 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module top because:
+	This module or some inlined child module(s) has/have been modified.
+make: Warning: File `filelist.cu' has modification time 61 s in the future
+rm -f _csrc*.so linux64_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic   amcQwB.o objs/amcQw_d.o   _13235_archive_1.so _prev_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libzerosoft_rt_stubs.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libvirsim.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/liberrorinf.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libsnpsmalloc.so    /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libvcsnew.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libsimprofile.so /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libuclinative.so   -Wl,-whole-archive /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/libvcsucli.so -Wl,-no-whole-archive          /usr/local/packages/synopsys_2015/vcs-mx/linux64/lib/vcs_save_restore_new.o -ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make: warning:  Clock skew detected.  Your build may be incomplete.
+CPU time: 1.016 seconds to compile + .019 seconds to elab + .173 seconds to link
+Finished rebuilding the design.
+Chronologic VCS simulator copyright 1991-2015
+Contains Synopsys proprietary information.
+Compiler version K-2015.09-SP1_Full64; Runtime version K-2015.09-SP1_Full64;  Dec 13 14:12 2017
+VCD+ Writer K-2015.09-SP1_Full64 Copyright (c) 1991-2015 by Synopsys Inc.
+The file '/home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/inter.vpd' was opened successfully.
+Starting       99999 tests
+      99999 tests,                      0 errors,                    100 percent correct
+
+$finish called from file "tb.v", line 54.
+$finish at simulation time 11999880.0 ns
+Simulation complete, time is 11999880000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 11999880000 ps
+CPU Time:    173.650 seconds;       Data structure size:   1.0Mb
+Wed Dec 13 14:19:25 2017

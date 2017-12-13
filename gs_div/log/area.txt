@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : gs_div
+Version: K-2015.06-SP4
+Date   : Wed Dec 13 14:07:50 2017
+****************************************
+
+Library(s) Used:
+
+    gscl45nm (File: /usr/local/packages/cadence_2007/FreePDK45/osu_soc/lib/files/gscl45nm.db)
+
+Number of ports:                        31262
+Number of nets:                         73417
+Number of cells:                        48312
+Number of combinational cells:          41947
+Number of sequential cells:               320
+Number of macros/black boxes:               0
+Number of buf/inv:                      11869
+Number of references:                      17
+
+Combinational area:             118284.715125
+Buf/Inv area:                    16855.847804
+Noncombinational area:            1635.510532
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                119920.225657
+Total area:                 undefined

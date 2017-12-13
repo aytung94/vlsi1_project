@@ -1,0 +1,17 @@
+
+module HA(A, B, So, Co);
+    input A, B;
+    output So, Co;
+
+    assign So = A ^ B;
+    assign Co = A & B;
+endmodule
+
+module FA(A, B, C, So, Co);
+    input A, B, C;
+    output So, Co;
+
+    assign So = A ^ B ^ C;
+    assign Co = (A & B) | (C & (A | B));
+endmodule
+

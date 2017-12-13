@@ -1,0 +1,155 @@
+Information: Derived library resistance unit is 1.000000 Kohm (Time unit is 1 ns, and Capacitance unit is 1.000000 pF). (DES-028)
+Information: Abandoning fast timing updates. (PTE-018)
+
+****************************************
+Report : read_parasitics /home/ecelrc/students/atung/vlsi1/vlsi1_project/rtl/40fracs/apr/gs_div.dspf
+Design : gs_div
+Version: K-2015.12
+Date   : Wed Dec 13 15:30:16 2017
+****************************************
+
+        0 error(s)
+        Format is DSPF
+        Annotated nets                   :        42555
+        Annotated capacitances           :       724787
+        Annotated resistances            :       682232
+        Reduced coupling capacitances    :            0
+
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[69]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[65]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[64]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[64]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[58]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[58]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[55]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[55]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[54]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[54]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[53]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[53]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[52]/D-->Q (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[52]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[52]/CLK-->Q (max rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[52]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[50]/D-->Q (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[50]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[50]/CLK-->Q (max rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[50]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[49]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[49]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[48]/D-->Q (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[48]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[48]/CLK-->Q (max rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[48]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[47]/D-->Q (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[47]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[47]/CLK-->Q (max rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[47]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[46]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[46]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[45]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[45]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[43]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[43]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[42]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[42]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[41]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[41]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[40]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[40]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[37]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[37]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[33]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[33]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[31]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[31]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[26]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[26]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[23]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[23]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[22]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[22]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[20]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[21]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[20]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[21]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[19]/D-->Q (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[19]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[19]/CLK-->Q (max rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[19]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[18]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[18]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[17]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[17]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[16]/D-->Q (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[16]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[16]/CLK-->Q (max rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[16]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[15]/D-->Q (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[15]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[15]/CLK-->Q (max rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[15]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[14]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[14]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[13]/D-->Q (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[13]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[13]/CLK-->Q (max rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[13]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[12]/D-->Q (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[12]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[12]/CLK-->Q (max rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[12]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[11]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[11]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[5]/D-->Q (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[5]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[4]/D-->Q (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[4]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[5]/CLK-->Q (max rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[4]/CLK-->Q (max rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[5]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[4]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[3]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[3]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[1]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A0_reg[1]/D-->Q (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A1_reg[71]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (gscl45nm/LATCH) A1_reg[65]/CLK-->Q (min rising & falling rising_edge) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-max_paths 1
+	-sort_by slack
+Design : gs_div
+Version: K-2015.12
+Date   : Wed Dec 13 15:30:20 2017
+****************************************
+
+
+  Startpoint: done_reg (positive level-sensitive latch)
+  Endpoint: done (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  ---------------------------------------------------------------
+  done_reg/CLK (LATCH)                     0.00       0.00 r
+  done_reg/Q (LATCH)                       0.12 &     0.12 r
+  done (out)                               0.03 &     0.15 r
+  data arrival time                                   0.15
+  ---------------------------------------------------------------
+  (Path is unconstrained)
+
+
+Suppressed Messages Summary:
+Id          Severity      Occurrences   Suppressed
+-------------------------------------------------------------------------------
+RC-009      Warning               371          271
+Total 1 type of message is suppressed
+Maximum memory usage for this session: 663.67 MB
+CPU usage for this session: 37 seconds 
+Elapsed time for this session: 61 seconds
+Diagnostics summary: 102 warnings, 7 informationals
+
+Thank you for using pt_shell!
