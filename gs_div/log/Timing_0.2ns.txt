@@ -1,0 +1,45 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : gs_div
+Version: K-2015.06-SP4
+Date   : Thu Dec 14 14:34:29 2017
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: counter_reg[0]
+              (rising edge-triggered flip-flop clocked by vclk)
+  Endpoint: counter_reg[0]
+            (rising edge-triggered flip-flop clocked by vclk)
+  Path Group: vclk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock vclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  counter_reg[0]/CLK (DFFPOSX1)            0.00       0.00 r
+  counter_reg[0]/Q (DFFPOSX1)              0.11       0.11 f
+  U1677/Y (INVX1)                          0.01       0.12 r
+  U1681/Y (MUX2X1)                         0.01       0.14 f
+  counter_reg[0]/D (DFFPOSX1)              0.00       0.14 f
+  data arrival time                                   0.14
+
+  clock vclk (rise edge)                   0.20       0.20
+  clock network delay (ideal)              0.00       0.20
+  counter_reg[0]/CLK (DFFPOSX1)            0.00       0.20 r
+  library setup time                      -0.06       0.14
+  data required time                                  0.14
+  -----------------------------------------------------------
+  data required time                                  0.14
+  data arrival time                                  -0.14
+  -----------------------------------------------------------
+  slack (MET)                                         0.01
+
+
